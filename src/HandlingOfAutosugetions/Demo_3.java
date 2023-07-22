@@ -1,0 +1,42 @@
+package HandlingOfAutosugetions;
+
+import java.time.Duration;
+import java.util.List;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.edge.EdgeDriver;
+
+public class Demo_3
+{
+	public static void main(String[] args) throws InterruptedException
+	{
+		WebDriver driver=new EdgeDriver();
+		
+		driver.get("https://www.google.co.in/");
+		
+		driver.manage().window().maximize();
+		
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+		
+		driver.findElement(By.xpath("//textarea[@id='APjFqb']")).sendKeys("redmi");
+		
+		Thread.sleep(5000);
+		
+		String exptext = "redmi note 12";
+		
+		List<WebElement> alloption = driver.findElements(By.xpath("(//ul[@class='G43f7e'])[1]//li"));
+		
+		for(WebElement s1:alloption)
+		{
+			String acttext = s1.getText();
+			if(acttext.equals(exptext))
+			{
+				s1.click();
+				break;
+			}
+		}
+	}
+
+}

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[--browser open--]]>
+    </line>
+    <line>
+      <![CDATA[--login to app--]]>
+    </line>
+    <line>
+      <![CDATA[--running logo 1TC--]]>
+    </line>
+    <line>
+      <![CDATA[--logout from app--]]>
+    </line>
+    <line>
+      <![CDATA[--login to app--]]>
+    </line>
+    <line>
+      <![CDATA[--running test case TC2--]]>
+    </line>
+    <line>
+      <![CDATA[--logout from app--]]>
+    </line>
+    <line>
+      <![CDATA[--browser close--]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2023-04-07T20:25:31 IST" name="Default suite" finished-at="2023-04-07T20:25:32 IST" duration-ms="223">
+    <groups>
+    </groups>
+    <test started-at="2023-04-07T20:25:31 IST" name="Default test" finished-at="2023-04-07T20:25:32 IST" duration-ms="223">
+      <class name="TestNg.Annotations_1">
+        <test-method is-config="true" signature="openbrowser()[pri:0, instance:TestNg.Annotations_1@5fbdfdcf]" started-at="2023-04-07T20:25:31 IST" name="openbrowser" finished-at="2023-04-07T20:25:32 IST" duration-ms="12" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[--browser open--]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- openbrowser -->
+        <test-method is-config="true" signature="loginToapp()[pri:0, instance:TestNg.Annotations_1@5fbdfdcf]" started-at="2023-04-07T20:25:32 IST" name="loginToapp" finished-at="2023-04-07T20:25:32 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[--login to app--]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginToapp -->
+        <test-method signature="verifylogo()[pri:1, instance:TestNg.Annotations_1@5fbdfdcf]" started-at="2023-04-07T20:25:32 IST" name="verifylogo" finished-at="2023-04-07T20:25:32 IST" duration-ms="16" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[--running logo 1TC--]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifylogo -->
+        <test-method is-config="true" signature="logoutfromapp()[pri:0, instance:TestNg.Annotations_1@5fbdfdcf]" started-at="2023-04-07T20:25:32 IST" name="logoutfromapp" finished-at="2023-04-07T20:25:32 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[--logout from app--]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logoutfromapp -->
+        <test-method is-config="true" signature="loginToapp()[pri:0, instance:TestNg.Annotations_1@5fbdfdcf]" started-at="2023-04-07T20:25:32 IST" name="loginToapp" finished-at="2023-04-07T20:25:32 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[--login to app--]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginToapp -->
+        <test-method signature="verifylogo2()[pri:2, instance:TestNg.Annotations_1@5fbdfdcf]" started-at="2023-04-07T20:25:32 IST" name="verifylogo2" finished-at="2023-04-07T20:25:32 IST" duration-ms="28" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[--running test case TC2--]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifylogo2 -->
+        <test-method is-config="true" signature="logoutfromapp()[pri:0, instance:TestNg.Annotations_1@5fbdfdcf]" started-at="2023-04-07T20:25:32 IST" name="logoutfromapp" finished-at="2023-04-07T20:25:32 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[--logout from app--]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logoutfromapp -->
+        <test-method is-config="true" signature="closeapp()[pri:0, instance:TestNg.Annotations_1@5fbdfdcf]" started-at="2023-04-07T20:25:32 IST" name="closeapp" finished-at="2023-04-07T20:25:32 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[--browser close--]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeapp -->
+      </class> <!-- TestNg.Annotations_1 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
